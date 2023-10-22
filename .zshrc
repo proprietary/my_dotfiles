@@ -58,12 +58,7 @@ eval "$(direnv hook zsh)"
 # ls
 alias ls='ls --color -lah'
 
-# fast node manager
-# https://github.com/Schniz/fnm
-eval "$(fnm env --use-on-cd)"
-
 export EDITOR=emacs
-
 
 # edit command line
 autoload -z edit-command-line
