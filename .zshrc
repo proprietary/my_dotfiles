@@ -72,3 +72,6 @@ select-word-style bash
 # enable shell completions
 autoload -U compinit
 compinit -i
+
+# GPG
+export GPG_TTY=$(tty)
